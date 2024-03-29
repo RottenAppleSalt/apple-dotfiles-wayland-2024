@@ -8,3 +8,7 @@ Before using, just look through the files and change some things that may need t
 - 📫 jesusplayscraft on Discord
 <br>
 Talk to me if you have questions!
+
+
+
+also im really bad at git and github which is why this repo is a hellhole
