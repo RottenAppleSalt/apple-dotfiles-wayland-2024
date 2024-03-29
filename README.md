@@ -6,4 +6,5 @@
 Before using, just look through the files and change some things that may need to be changed. 
 
 - 📫 jesusplayscraft on Discord
-Talk to be if you have questions!
+<br>
+Talk to me if you have questions!
