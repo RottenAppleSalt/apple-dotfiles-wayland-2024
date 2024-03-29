@@ -1,0 +1,100 @@
+/*
+ * ROFI One Dark
+ *
+ * Based on OneDark.vim (https://github.com/joshdick/onedark.vim)
+ *
+ */
+
+/* Sorry I don't use something other than rofi yet, I haven't gotten around to it just yet */
+
+
+* {
+    black:      #000000;
+    red:        #eb6e67;
+    green:      #357d2f;
+    yellow:     #f8c456;
+    blue:       #6eaafb;
+    mangenta:   #d886f3;
+    cyan:       #6cdcf7;
+    emphasis:   #50536b;
+    text:       #C5C8C6;
+    text-alt:   #b2b2b2;
+    fg:         #C5C8C6;
+    bg:         #282A2E;
+
+    spacing: 0;
+    background-color: transparent;
+
+    font: "Ubuntu Regular 20";
+    text-color: @text;
+}
+
+window {
+    transparency: "real";
+    fullscreen: true;
+    background-color: #282c34bd;
+}
+
+mainbox {
+    padding: 30% 30%;
+}
+
+inputbar {
+    margin: 0px 0px 20px 0px;
+    children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+    text-color: #C5C8C6;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: "";
+    text-color: @text-alt;
+}
+
+entry {
+    margin: 0px 10px;
+    text-color: @text;
+}
+
+listview {
+    spacing: 5px;
+    dynamic: true;
+    scrollbar: false;
+}
+
+element {
+    padding: 5px;
+    text-color: @text-alt;
+    highlight: bold #6cdcf7;
+    border-radius: 3px;
+}
+
+element selected {
+    background-color: @emphasis;
+    text-color: @text;
+}
+
+element urgent, element selected urgent {
+    text-color: @red;
+}
+
+element active, element selected active {
+    text-color: @text;
+}
+
+message {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: @emphasis;
+    border: 1px;
+    border-color: @cyan;
+}
+
+button selected {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: @emphasis;
+}
