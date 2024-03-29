@@ -101,4 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # neofetch --ascii ~/.config/neofetch/arch
-fastfetch --logo ~/.config/neofetch/arch
+
+
+# Custom ascii
+fastfetch --logo ~/.config/fastfetch/kitty
